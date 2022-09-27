@@ -1,0 +1,18 @@
+// beautiful scss styling for the button element
+.button {
+  background-color: #000;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 1rem 0;
+}
+
+// the disabled button state
+.disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+}

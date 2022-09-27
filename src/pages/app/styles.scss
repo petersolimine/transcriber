@@ -1,0 +1,40 @@
+html {
+  background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+.App-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  background-color: rgba(249, 217, 217, 0.2);
+  border-radius: 100px;
+  height: 80vh;
+  width: 80vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(235, 235, 235);
+  // make the whole App-header transparent
+}
+
+.header {
+  // simple but beautiful font
+  font-family: "Raleway", sans-serif;
+}
+.subtitle {
+  font-size: 1em;
+  font-family: "Raleway", sans-serif;
+  font-weight: 100;
+  margin-top: 0;
+}
+.modal {
+  background: white;
+  min-width: 50vw;
+  min-height: 50vh;
+  z-index: 999;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
